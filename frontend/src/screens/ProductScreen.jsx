@@ -47,7 +47,6 @@ const ProductScreen = () => {
                                     </Col>
                                 </Row>
                             </ListGroup.Item>
-
                             <ListGroup.Item>
                                 <Row>
                                     <Col>Status : </Col>
