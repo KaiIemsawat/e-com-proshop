@@ -11,7 +11,8 @@ const Rating = ({ value, text }) => {
                 ) : (
                     <FaRegStar />
                 )}
-
+            </span>
+            <span>
                 {value >= 2 ? (
                     <FaStar />
                 ) : value >= 1.5 ? (
@@ -19,7 +20,8 @@ const Rating = ({ value, text }) => {
                 ) : (
                     <FaRegStar />
                 )}
-
+            </span>
+            <span>
                 {value >= 3 ? (
                     <FaStar />
                 ) : value >= 2.5 ? (
@@ -27,7 +29,8 @@ const Rating = ({ value, text }) => {
                 ) : (
                     <FaRegStar />
                 )}
-
+            </span>
+            <span>
                 {value >= 4 ? (
                     <FaStar />
                 ) : value >= 3.5 ? (
@@ -35,7 +38,8 @@ const Rating = ({ value, text }) => {
                 ) : (
                     <FaRegStar />
                 )}
-
+            </span>
+            <span>
                 {value >= 5 ? (
                     <FaStar />
                 ) : value >= 4.5 ? (

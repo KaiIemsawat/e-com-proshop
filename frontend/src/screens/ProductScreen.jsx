@@ -28,11 +28,9 @@ const ProductScreen = () => {
                                 text={`${product.numReviews} reviews`}
                             />
                         </ListGroup.Item>
+                        <ListGroup.Item>Price: ${product.price}</ListGroup.Item>
                         <ListGroup.Item>
-                            Price : ${product.price}
-                        </ListGroup.Item>
-                        <ListGroup.Item>
-                            Description : ${product.description}
+                            Description: ${product.description}
                         </ListGroup.Item>
                     </ListGroup>
                 </Col>
@@ -41,17 +39,19 @@ const ProductScreen = () => {
                         <ListGroup variant="flush">
                             <ListGroup.Item>
                                 <Row>
-                                    <Col>Price : </Col>
+                                    <Col>Price:</Col>
                                     <Col>
                                         <strong>${product.price}</strong>
                                     </Col>
                                 </Row>
                             </ListGroup.Item>
+
                             <ListGroup.Item>
                                 <Row>
-                                    <Col>Status : </Col>
+                                    <Col>Status:</Col>
                                     <Col>
                                         <strong>
+                                            $
                                             {product.countInStock > 0
                                                 ? "In Stock"
                                                 : "Out of Stock"}

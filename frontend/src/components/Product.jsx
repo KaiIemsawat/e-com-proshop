@@ -1,5 +1,6 @@
 import { Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
+
 import Rating from "./Rating";
 
 const Product = ({ product }) => {
@@ -10,7 +11,7 @@ const Product = ({ product }) => {
             </Link>
             <Card.Body>
                 <Link to={`/product/${product._id}`}>
-                    {/* check this classname for limit title to one line (index.css)*/}
+                    {/* Check className below for one line text with ... */}
                     <Card.Title as="div" className="product-title">
                         <strong>{product.name}</strong>
                     </Card.Title>
